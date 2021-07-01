@@ -1,0 +1,6 @@
+/* Created by Matt Roth on Jan 2021 in order to fix the white screen flash between page loads */
+
+.browserContainer { 
+  /* background-color: #000000 !important; */
+}
+

@@ -1,0 +1,45 @@
+/* Created by Matt Roth on 17 March 2021. Will try adding style changes to dev tools from this file */
+
+/* @namespace url(http://www.w3.org/1999/xhtml);
+  .CodeMirror {
+  font-family: 'Ubuntu Mono', monospace !important;
+  font-size: 15pt !important;
+  } */
+
+/* This ain't work cheif */
+/* @-moz-document url-prefix(chrome://devtools/content/)
+{
+  body,
+  .CodeMirror-line {
+    font-family: 'InconsolataGo' !important;
+    font-size: 16px !important;
+    font-weight: normal;
+  }
+
+  div,
+  [platform='linux']:root .devtools-monospace {
+    font-size: 1px !important;
+  }
+}
+.jsterm-editor .jsterm-input-container > .CodeMirror {
+  font-size: 16px;
+} */
+
+.devtools-tab-label {
+  font-size: 10px !important;
+  /* color: orange !important; */
+}
+
+.devtools-tab > img {
+  height: 10px !important;
+  width: 10px !important;
+  min-height: 10px !important;
+}
+
+.devtools-monospace {
+  font-size: 12px !important;
+}
+
+.jsterm-input-container {
+  font-size: 12px !important;
+}
